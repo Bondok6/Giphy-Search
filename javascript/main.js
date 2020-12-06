@@ -1,11 +1,9 @@
-var flag = false;
 // Grab the input value .
 
 document.querySelector(".js-go").addEventListener('click', () => {
 
   let input = document.querySelector('input');
   let inputValue = input.value;
-  flag = true;
   putInput(inputValue);
   
 })
@@ -16,7 +14,6 @@ document.querySelector(".js-userinput").addEventListener('keyup', (e) => {
   let inputValue = input.value;
 
   if (e.which === 13) {
-    flag = true;
     putInput(inputValue);
   } 
   
@@ -36,11 +33,9 @@ function putInput(input) {
   GiphyCallAjax.send();
 
   GiphyCallAjax.addEventListener('load', (e) => {
-    if (flag === true) {
       let data = e.target.response;
       console.log(data);
       pushToDom(data);
-     }
   })
 
 }
@@ -54,6 +49,8 @@ function pushToDom(inputValue) {
 
   let div = document.querySelectorAll('div')[1];
   let response = JSON.parse(inputValue);
+
+  div.innerHTML = "";
 
   response.data.forEach(el => {
     let src = el.images.fixed_height.url;
