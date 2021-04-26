@@ -27,11 +27,12 @@ body {
 
 	border: 1px solid green;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 .container-image {
 	width: 30%;
 	display: block;
 	float: left;
-	margin-right:3%;
+	margin-right: 3%;
 }
