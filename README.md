@@ -1,8 +1,12 @@
 # Giphy-Search
-### Search for the GIF image you want
+
+> ### In this project, you can search for any GIF image you want.
+
+
 ![image preview](preview.PNG)
 
-## Page_link
-[![Netlify Status](https://api.netlify.com/api/v1/badges/35d3183f-57ba-41f6-9379-83e7a9f8aec7/deploy-status)](https://giphysearchh.netlify.app/) <br>
-<br>
-https://bondok6.github.io/Giphy-Search/
+## Live Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/35d3183f-57ba-41f6-9379-83e7a9f8aec7/deploy-status)](https://giphysearchh.netlify.app/)
+
+[Live Demo Link](https://bondok6.github.io/Giphy-Search/)
