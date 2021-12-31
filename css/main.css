@@ -1,38 +1,40 @@
 body {
-	width: 80%;
-	max-width: 1024px;
-	margin: 0 auto;
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .container-padding50 {
-	padding-top: 50px;
+  padding-top: 50px;
 }
 
 .container-textinput {
-	width: 80%;
-	display: inline-block;
-	padding: 20px;
-	font-size: 16px;
-	font-family: Helvetica, sans-serif;
+  width: 80%;
+  height: 20px;
+  display: inline-block;
+  padding: 20px;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
 }
 
 .container-button {
-	width: 10%;
-	display: inline-block;
-	padding: 20px;
-	background-color: green;
-	color: white;
-	font-size: 16px;
-	font-family: Helvetica, sans-serif;
+  height: 40px;
+  padding: 10px 15px;
 
-	border: 1px solid green;
-	border-radius: 5px;
-	cursor: pointer;
+  display: inline-block;
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+
+  border: 1px solid green;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .container-image {
-	width: 30%;
-	display: block;
-	float: left;
-	margin-right: 3%;
+  width: 30%;
+  display: block;
+  float: left;
+  margin-right: 3%;
 }
